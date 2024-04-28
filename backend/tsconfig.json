@@ -1,0 +1,12 @@
+{
+    "extends": "./node_modules/gts/tsconfig-google.json",
+    "compilerOptions": {
+        "rootDir": ".",
+        "allowJs": true,
+        "outDir": "./build",
+        "esModuleInterop": true,
+        "module": "CommonJS"
+    },
+    "include": ["src/**/*.ts", "src/**/*.js", "test/**/*.ts"],
+    "after": ["transform-with-babel"]
+}

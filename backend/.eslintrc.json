@@ -1,0 +1,13 @@
+{
+  "rules": {    
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/typescript-estree": "off"
+  },
+  "extends": ["./node_modules/gts/", "eslint:recommended", "plugin:prettier/recommended"]
+}
